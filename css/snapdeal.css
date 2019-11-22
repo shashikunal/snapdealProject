@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+
+#headerSection {
+    background: #e40046;
+    height: 100px;
+}
+
+#headerSection .marginleftandrightspace,
+.logoandcartSection>article,
+#ContentSection>article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topMenu p {
+    margin: 0;
+
+}
+
+.topMenu {
+    background: #c6003d;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.leftpara {
+    width: 50%;
+    float: left;
+}
+
+.rightUlMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.rightUlMenu li {
+    display: inline-block;
+}
+
+.rightUlMenu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+
+}
+
+/* 
+logoandcartsection css */
+
+.logoandcartSection>article .logo {
+    width: 17%;
+    float: left;
+    position: relative;
+    top: 18px
+}
+
+.logoandcartSection>article .search {
+    width: 63%;
+    float: left;
+    line-height: 70px;
+}
+
+.logoandcartSection>article .cart {
+    width: 20%;
+    float: right;
+    line-height: 70px;
+
+}
+
+#search {
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    color: #909090;
+}
+
+.searchText {
+    padding: 8px 30px;
+    background: #111;
+    color: #fff;
+    border-radius: 0px 3px 3px 0px;
+    margin: 0px -5px;
+    position: relative;
+    top: 1px;
+}
+
+#insideDiv {
+    position: absolute;
+    display: none;
+}
+
+.rightNavigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rightNavigation li {
+    display: inline-block;
+
+}
+
+.rightNavigation li a {
+    padding: 26px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.fa-shopping-cart {
+    font-size: 24px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.rightNavigation .dropdown:hover {
+    background: #111;
+}
+
+.rightNavigation .dropdown ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.rightNavigation .dropdown ul {
+    line-height: 30px;
+}
+
+.rightNavigation .dropdown:hover #insideDiv {
+    background: #111;
+    display: inline-block;
+    top: 70px;
+    width: 200px;
+    right: 0;
+}
+
+.insideList li a {
+    padding: 0;
+
+}
+
+/* contentSection css here */
+#ContentSection {
+    background: #eee;
+    /* height: 100vh; */
+}
+
+#ContentSection>article {
+    margin-top: 40px;
+}
+
+.contentLeft {
+    width: 20%;
+    float: left;
+    background: white;
+}
+
+.contentMiddle {
+    width: 56%;
+    float: left;
+    background: white;
+    margin: 0 2%;
+}
+
+.contentRight {
+    width: 20%;
+    float: right;
+    background: white;
+}
+
+
+
+.menuList {
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+}
+
+.menuList li a {
+    color: #111;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 100%;
+}
+
+.contentLeft h5 {
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/* .menuList li a:hover {
+    border-left: 3px solid red;
+    background: #eee;
+    transition: ease-in-out all 0.5s;
+} */
+
+.icon_images {
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+    /*---important----*/
+}
+
+.all_offers_icons {
+    background: url('../images/Discount_Right_icon-f5105.png');
+    background-size: cover;
+}
+
+.Electronics_icons {
+    background: url('../images/Electronic-6212c.png');
+    background-size: cover;
+}
+
+.contentMiddle h1 {
+
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 10px 64px;
+    text-align: center;
+    text-shadow: 5px 2px 4px #c6003d;
+}
+
+#display {
+    clear: both;
+    background: yellow;
+    color: #111;
+    border: 1px solid #111;
+    padding: 10px;
+    /* display: none;
+    visibility: hidden; */
+    text-indent: -9999px;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+}
+
+.test {
+    filter: grayscale(1);
+}
+
+.test:hover {
+    filter: grayscale(0);
+}
